@@ -10,7 +10,11 @@
         <h1>Daily todo list</h1>
 
         <ul>
-            <li>testing</li>
+          <form method="POST" action="/">
+            <li><input type="text" name="todo"> <%=item %> </li>
+            <button type="submit">Add</button>
+          </form>
         </ul>
+
     </body>
 </html>
